@@ -3,7 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import time
 
-API_KEY = '086ad3b3-a4f0-4d5d-9492-f4baa4d6a703'
+API_KEY = '<YOUR PERSONAL KEY APPLIED THROUGH GUARDIAN SITE>'
 FROM_DATE = '2020-01-01'
 TO_DATE = '2024-12-01'
 PAGE_SIZE = 50
