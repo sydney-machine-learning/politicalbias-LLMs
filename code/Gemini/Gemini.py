@@ -59,8 +59,13 @@ def classify_texts_batch(text_list, max_workers=5):
 
 # main part
 if __name__ == "__main__":
-    # Read data
+    # Read data - replace === to an actual csv file
     input_file = "==="
+    ##input_file = "bbc_israel_hamas_total_filtered_upto_10000_tokens.csv"
+    ##input_file = "bbc_russia_ukraine_total_filtered_upto_10000_tokens.csv"
+    ##input_file = "guardian_israel_hamas_total_filtered_upto_10000_tokens.csv"
+    ##input_file = "guardian_russia_ukraine_total_filtered_upto_10000_tokens.csv"
+    
     df = pd.read_csv(input_file)
 
     # Select the text column
