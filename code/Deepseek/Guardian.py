@@ -10,7 +10,11 @@ openai.api_key = ""
 # Initialize client (New SDK must use `OpenAI()` instance)
 client = openai.OpenAI(base_url=openai.api_base, api_key=openai.api_key)
 
+# Load Data - replace the file below with an ACTUAL CSV FILE
 df = pd.read_csv("guardian_russia_ukraine_total_filtered_upto_10000_tokens.csv")
+#ACTUAL CSV FILE:
+##df = pd.read_csv("guardian_israel_hamas_total_filtered_upto_10000_tokens.csv")
+##df = pd.read_csv("guardian_russia_ukraine_total_filtered_upto_10000_tokens.csv")
 
 # ========== Prompt Builder Function ==========
 def build_prompt(text: str) -> str:
