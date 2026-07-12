@@ -10,8 +10,9 @@ openai.api_key = ""
 # Initialize client (New SDK must use `OpenAI()` instance)
 client = openai.OpenAI(base_url=openai.api_base, api_key=openai.api_key)
 
-# Load data - replace below line with an actual csv file:
+# Load data - replace below line with an ACTUAL CSV FILE:
 df = pd.read_csv("bbc_ukraine_2020_2024_advanced_filtered.csv")
+# ACTUAL CSV FILE:
 ##df = pd.read_csv("bbc_israel_hamas_total_filtered_upto_10000_tokens.csv")
 ##df = pd.read_csv("bbc_russia_ukraine_total_filtered_upto_10000_tokens.csv")
 
