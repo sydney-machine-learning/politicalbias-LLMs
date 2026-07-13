@@ -3,7 +3,8 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import time
 
-API_KEY = '086ad3b3-a4f0-4d5d-9492-f4baa4d6a703'
+# request an developer's API_KEY for free from the Guardian Network website, then replace the '===' below with the actual API_KEY
+API_KEY = '==='
 FROM_DATE = '2020-01-01'
 TO_DATE = '2024-12-01'
 PAGE_SIZE = 50
