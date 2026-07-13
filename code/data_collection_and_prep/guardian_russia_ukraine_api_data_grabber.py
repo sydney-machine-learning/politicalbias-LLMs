@@ -3,6 +3,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 import time
 
+request an developer's API_KEY for free from the Guardian Network website, then replace the '<YOUR PERSONAL KEY APPLIED THROUGH GUARDIAN SITE>' below with the actual API_KEY
 API_KEY = '<YOUR PERSONAL KEY APPLIED THROUGH GUARDIAN SITE>'
 FROM_DATE = '2020-01-01'
 TO_DATE = '2024-12-01'
